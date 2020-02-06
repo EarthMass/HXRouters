@@ -316,7 +316,7 @@ static inline NSMutableDictionary * GetUrlParamtersWithUrlStr(NSString * urlStr)
     NSString * dicStr = nil;
 #if __has_include(<MJExtension/MJExtension.h>)
 
-    NSString * dicStr = [params mj_JSONString];
+    dicStr = [params mj_JSONString];
 #else
     NSData *jsonData = [NSJSONSerialization dataWithJSONObject:params
                                                        options:NSJSONWritingPrettyPrinted
