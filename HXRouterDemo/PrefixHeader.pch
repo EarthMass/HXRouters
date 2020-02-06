@@ -1,0 +1,17 @@
+//
+//  PrefixHeader.pch
+//  BeeHiveRouterDemo
+//
+//  Created by guohx on 2019/7/18.
+//  Copyright © 2019 ghx. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+//配置 在pch预编译文件中，方便全局调用
+#import "HXRouterUtil.h"
+//引用到的Service全部 统一这边引入,如果使用的是路由映射不需要用到 ServiceProtocol的话，就不需要引入
+#import "TestService.h"
+
+#endif /* PrefixHeader_pch */
