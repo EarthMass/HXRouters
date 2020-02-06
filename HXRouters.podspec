@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
 
                    DESC
 
-  s.homepage     = "https://github.com/EarthMass/HXRouter.git"
+  s.homepage     = "https://github.com/EarthMass/HXRouters.git"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -72,9 +72,8 @@ Pod::Spec.new do |s|
 
 
 
-  #s.source       = { :git => "http://git.strongsoft.net:6280/201created/ECloud/ECloud-modules/DeQingModules-iOS.git", :tag => "#{s.version}" }
 
-  s.source       = { :git => "https://github.com/EarthMass/HXRouter.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/EarthMass/HXRouters.git", :tag => "#{s.version}" }
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #

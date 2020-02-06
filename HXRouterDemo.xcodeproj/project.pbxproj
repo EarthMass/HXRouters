@@ -17,7 +17,6 @@
 		1317CECD22E06654008CBD2B /* HXRouterUtil.h in Sources */ = {isa = PBXBuildFile; fileRef = 1317CECC22E0646C008CBD2B /* HXRouterUtil.h */; };
 		1317CED522E06E54008CBD2B /* TestService.m in Sources */ = {isa = PBXBuildFile; fileRef = 1317CED422E06E53008CBD2B /* TestService.m */; };
 		1317CEDC22E0739E008CBD2B /* TestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1317CEDB22E0739E008CBD2B /* TestVC.m */; };
-		7297C1B5D7B085DBE79839CE /* libPods-HXRouterDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C714D5DEB820F81730FB226 /* libPods-HXRouterDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,11 +38,6 @@
 		1317CEDA22E0739E008CBD2B /* TestVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestVC.h; sourceTree = "<group>"; };
 		1317CEDB22E0739E008CBD2B /* TestVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestVC.m; sourceTree = "<group>"; };
 		1317CEDD22E076B0008CBD2B /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		330FF802453C92931F7B4B99 /* Pods-BeeHiveRouterDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeeHiveRouterDemo.release.xcconfig"; path = "Target Support Files/Pods-BeeHiveRouterDemo/Pods-BeeHiveRouterDemo.release.xcconfig"; sourceTree = "<group>"; };
-		4C714D5DEB820F81730FB226 /* libPods-HXRouterDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HXRouterDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B5D092408F7A865817E71063 /* Pods-HXRouterDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HXRouterDemo.release.xcconfig"; path = "Target Support Files/Pods-HXRouterDemo/Pods-HXRouterDemo.release.xcconfig"; sourceTree = "<group>"; };
-		CBF23B042E51D04D40645D66 /* Pods-HXRouterDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HXRouterDemo.debug.xcconfig"; path = "Target Support Files/Pods-HXRouterDemo/Pods-HXRouterDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		DEEE5FACDF39CA62C0E312C7 /* Pods-BeeHiveRouterDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeeHiveRouterDemo.debug.xcconfig"; path = "Target Support Files/Pods-BeeHiveRouterDemo/Pods-BeeHiveRouterDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +45,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7297C1B5D7B085DBE79839CE /* libPods-HXRouterDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,8 +56,7 @@
 			children = (
 				1317CEAF22E061DA008CBD2B /* HXRouterDemo */,
 				1317CEAE22E061DA008CBD2B /* Products */,
-				1DBB89FBBE44B6CE63A52369 /* Pods */,
-				8C2D94F06ADB737043F3CC01 /* Frameworks */,
+				A6CDCAE40380DEE59457EA93 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -124,23 +116,11 @@
 			path = Service;
 			sourceTree = "<group>";
 		};
-		1DBB89FBBE44B6CE63A52369 /* Pods */ = {
+		A6CDCAE40380DEE59457EA93 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				DEEE5FACDF39CA62C0E312C7 /* Pods-BeeHiveRouterDemo.debug.xcconfig */,
-				330FF802453C92931F7B4B99 /* Pods-BeeHiveRouterDemo.release.xcconfig */,
-				CBF23B042E51D04D40645D66 /* Pods-HXRouterDemo.debug.xcconfig */,
-				B5D092408F7A865817E71063 /* Pods-HXRouterDemo.release.xcconfig */,
 			);
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		8C2D94F06ADB737043F3CC01 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				4C714D5DEB820F81730FB226 /* libPods-HXRouterDemo.a */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,7 +130,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1317CEC322E061DB008CBD2B /* Build configuration list for PBXNativeTarget "HXRouterDemo" */;
 			buildPhases = (
-				88F1B66E47AF6EB07275A94B /* [CP] Check Pods Manifest.lock */,
 				1317CEA922E061DA008CBD2B /* Sources */,
 				1317CEAA22E061DA008CBD2B /* Frameworks */,
 				1317CEAB22E061DA008CBD2B /* Resources */,
@@ -208,31 +187,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		88F1B66E47AF6EB07275A94B /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-HXRouterDemo-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1317CEA922E061DA008CBD2B /* Sources */ = {
@@ -385,18 +339,20 @@
 		};
 		1317CEC422E061DB008CBD2B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CBF23B042E51D04D40645D66 /* Pods-HXRouterDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/PrefixHeader.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
 				INFOPLIST_FILE = "$(SRCROOT)/HXRouterDemo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				PODS_CONFIGURATION_BUILD_DIR = "";
+				PODS_ROOT = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ghx.BeeHiveRouterDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -406,18 +362,20 @@
 		};
 		1317CEC522E061DB008CBD2B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B5D092408F7A865817E71063 /* Pods-HXRouterDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/PrefixHeader.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
 				INFOPLIST_FILE = "$(SRCROOT)/HXRouterDemo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				PODS_CONFIGURATION_BUILD_DIR = "";
+				PODS_ROOT = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ghx.BeeHiveRouterDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
