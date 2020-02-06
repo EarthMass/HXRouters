@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   s.description  = <<-DESC
 
 
-                    HXRouter路由
+                    HXRouter路由框架，使用高效便捷，高效解耦。
 
                    DESC
 
