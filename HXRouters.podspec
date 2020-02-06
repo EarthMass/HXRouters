@@ -15,9 +15,9 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "HXRouter"
+  s.name         = "HXRouters"
   s.version      = "0.0.1"
-  s.summary      = "HXRouter路由"
+  s.summary      = "HXRouters路由"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   s.description  = <<-DESC
 
 
-                    HXRouter路由框架，使用高效便捷，高效解耦。
+                    HXRouters路由框架，使用高效便捷，高效解耦。
 
                    DESC
 
