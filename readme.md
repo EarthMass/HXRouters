@@ -2,7 +2,7 @@
 路由库，可设置映射。
 
 # 引入
-`pod 'HXRouter'`
+`pod 'HXRouters'`
 
 # 兼容 iOS8+
 
